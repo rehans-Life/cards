@@ -1,0 +1,15 @@
+<!-- Then we are displaying the properties that were taken 
+as input by the card component from its parent in its template
+file  -->
+<div class="container">
+  <div class="card">
+    <div class="card-img">
+      <img class="img" [src]="imageURL" />
+    </div>
+    <div class="card-content">
+      <h3 class="card-header">{{ title }}</h3>
+      <i>@{{ username }}</i>
+      <p>{{ content }}</p>
+    </div>
+  </div>
+</div>
